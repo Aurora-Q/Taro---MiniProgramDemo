@@ -1,0 +1,61 @@
+.index_container {
+    display: flex;
+    width: 100%;
+    &_list {
+        height: 100%;
+        margin: 0 24rpx;
+        width: 20%;
+        &_item {
+            font-size: 30rpx;
+            padding: 16rpx 0;
+            padding-left: 6rpx;
+            &_show {
+                line-height: 64rpx;
+                padding-left: 18rpx;
+                font-size: 26rpx;
+            }
+            &_active {
+                font-size: 30rpx;
+                padding: 16rpx 0;
+                padding-left: 6rpx;
+                color: pink;
+            }
+        }
+    }
+    &_good {
+        width: 80%;
+        &_item {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        &_src {
+            padding: 8rpx;
+            width: 260rpx;
+            height: 240rpx;
+            &_url {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &_info {
+            text-align: center;
+            font-size: 24rpx;
+        }
+        &_content {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    &_title {
+        margin-top: 20rpx;
+    }
+    &_pic {
+        width: 100%;
+        height: 280rpx;
+        margin-top: 30rpx;
+        &_url {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
